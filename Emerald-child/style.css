@@ -36,10 +36,11 @@ Screen smaller than 680px
   .header-desc {text-align: center; color: #ccc; margin-bottom: 40px; font-size: .9em;}
 
   /* .nav */
-  .tinynav {display: block; width: 100% !important; background: #fff;}
-  .nav {display: block; clear: both; margin-bottom: 20px;}
-  .nav ul {display: none;}
-
+  .tinynav {display: none;}
+  .nav {position: relative;}
+  .nav ul {list-style: none;}
+  .nav a {display: block; padding: 5px 15px;}
+  .nav li {text-align: center;}
   /* .nivoSlider */
   .nivoSlider-wrapper {width: 100%; margin-bottom: 40px; float: right;}
 
@@ -146,10 +147,10 @@ Screen between 681px and 1060px
   .header-desc {text-align: center; color: #ccc; margin-bottom: 40px; font-size: .9em;}
 
   /* .nav */
-  .tinynav {display: block;}
+  .tinynav {display: none;}
   .nav {position: relative;}
-  .nav ul {display: none; list-style: none;}
-  .nav a {display: block; padding: 2px 15px;}
+  .nav ul {list-style: none;}
+  .nav a {display: block; padding: 5px 15px;}
   .nav a:hover {}
 
   .nav .current_page_item a,
