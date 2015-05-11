@@ -10,6 +10,11 @@ Version:			14.10
 
 @import url("../Emerald/style.css");
 
+.header-title {
+  font-family: 'Sacramento', cursive; 
+  text-transform: none; 
+}
+
 /*************************************************************************************************************************
 Screen smaller than 680px
 *************************************************************************************************************************/
@@ -27,7 +32,7 @@ Screen smaller than 680px
   /* .header */
   .header h1,
   .header h5 {font-size: 2em; font-style: normal; text-transform: uppercase; text-align: center; margin: 20px 0 0 0;}
-  .header-title {display: block; margin: 0 auto 20px auto;}
+  .header-title {display: block; margin: 0 auto 20px auto; }
   .header-desc {text-align: center; color: #ccc; margin-bottom: 40px; font-size: .9em;}
 
   /* .nav */
