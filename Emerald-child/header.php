@@ -23,6 +23,22 @@
     <?php echo ace_heading(); ?>
   </header><!-- .header -->
 
+
+  <div style = "text-align:center; margin-top:-30px">
+    <p>
+
+      <a href="https://www.google.com/maps/place/West+Side+Salon/@37.811328,-121.996685,15z/data=!4m2!3m1!1s0x0:0x5db18f6846416e7f?sa=X&amp;ved=0CH8Q_BIwC2oVChMIgrLv-IOLxgIVBJqICh2KjQA2">
+        West Side Salon<br>
+        407 Sycamore Valley Rd W<br>
+        Danville, California
+      </a>
+    </p>
+    <p> 
+      <a href="tel: 19259845750">(925) 984-5750</a>
+    </p>
+  </div>
+
+
 <main>
   <article class="side-menu">
     <?php if ( get_option( 'ace_side_menu' ) == true ) {} else { ?>
